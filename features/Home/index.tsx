@@ -6,7 +6,7 @@ const Home = ({ changeStep, view, setView }) => {
   const dispatch = useDispatch();
   const [inputValue, setInputValue] = useState("");
 
-  const validateEmail = (email) => {
+  const validateEmail = (email: any) => {
     return String(email)
       .toLowerCase()
       .match(/\S+@\S+\.\S+/);
