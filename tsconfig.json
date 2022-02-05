@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "types": ["reflect-metadata", "jest"],
+    // "types": ["reflect-metadata", "jest"],
     "typeRoots": ["./types", "./node_modules/@types"]
   },
   "include": [
